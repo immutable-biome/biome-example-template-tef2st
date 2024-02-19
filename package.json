@@ -3,10 +3,13 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
-    "@biom3/design-tokens": "^0.2.11",
-    "@biom3/react": "^0.19.49",
+    "@biom3/design-tokens": "^0.3.1",
+    "@biom3/react": "^0.20.4",
+    "@emotion/react": "^11.11.3",
+    "@rive-app/react-canvas": "^4.8.1",
     "@types/react": "^18.2.48",
     "@types/react-dom": "^18.2.18",
+    "framer-motion": "^11.0.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "typescript": "^5.3.3"
@@ -18,6 +21,19 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "react-scripts": "latest"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
